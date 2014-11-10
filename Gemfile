@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 #ruby '2.1.2'
 
-gem 'selenium-webdriver', '2.42.0'
+gem 'selenium-webdriver', '2.43.0'
 gem 'rspec', '3.1.0'
 gem 'rspec-core', '3.1.2'
 gem 'json', '~> 1.8.1'
