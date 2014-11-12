@@ -45,7 +45,7 @@ RSpec.configure do |config|
 			#only 31 is intalled
 
 			hub = "http://10.0.2.162:4444/wd/hub"
-			driver = Selenium::WebDriver.for(:remote, :url => hub, :desired_capabilities => caps)
+			@driver = Selenium::WebDriver.for(:remote, :url => hub, :desired_capabilities => caps)
 		when 'JENKINS'
 			@logger.info 'Creating Jenkins Distributed driver'
 			@driver = Selenium::WebDriver.for BROWSER
