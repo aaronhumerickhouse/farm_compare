@@ -22,6 +22,7 @@ RSpec.configure do |config|
 			caps.platform = 'Windows 8'
 			caps.version = '31'
 			caps['browserName'] = 'firefox'
+			caps['selenium-version'] = '2.43.0'
 
 			@driver = Selenium::WebDriver.for(:remote, :url => URI(SAUCELABS_URL), :desired_capabilities => caps)
 
@@ -34,6 +35,8 @@ RSpec.configure do |config|
 			caps['os_version'] = '8'
 			caps['browser'] = 'firefox'
 			caps['browser_version'] = '31'
+
+			caps['browserstack.selenium_version'] = '2.43.1'
 
 			@driver = Selenium::WebDriver.for(:remote, :url => BROWSERSTACK_URL, :desired_capabilities => caps)
 
