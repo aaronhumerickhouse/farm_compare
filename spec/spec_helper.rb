@@ -19,8 +19,8 @@ RSpec.configure do |config|
 		when 'SAUCELABS'
 			@logger.info 'Creating Sauce Labs driver'
 			caps = Selenium::WebDriver::Remote::Capabilities.firefox
-			caps.platform = 'Windows 7'
-			caps.version = '32'
+			caps.platform = 'Windows 8'
+			caps.version = '31'
 			caps['browserName'] = 'firefox'
 
 			@driver = Selenium::WebDriver.for(:remote, :url => URI(SAUCELABS_URL), :desired_capabilities => caps)
@@ -31,17 +31,22 @@ RSpec.configure do |config|
 			@logger.info 'Creating Browserstack driver'
 			caps = Selenium::WebDriver::Remote::Capabilities.new
 			caps['os'] = 'Windows'
-			caps['os_version'] = '7'
+			caps['os_version'] = '8'
 			caps['browser'] = 'firefox'
-			caps['browser_version'] = '32'
-			caps['browserstack.debug'] = true
+			caps['browser_version'] = '31'
 
 			@driver = Selenium::WebDriver.for(:remote, :url => BROWSERSTACK_URL, :desired_capabilities => caps)
 
 		when 'GRID'
 			@logger.info 'Creating Selenium 2 Grid driver'
-			hub = "http://a.a.a.a/"
-			driver = WebDriver::Remote.new(hub)
+			caps = Selenium::WebDriver::Remote::Capabilities.new
+			caps['platform'] = 'WINDOWS'
+			caps['version'] = '8'
+			caps['browserName'] = 'firefox'
+			#only 31 is intalled
+			
+			hub = "http://10.0.2.162:5555/wd/hub"
+			driver = Selenium::WebDriver.for(:remote, :url => hub, :desired_capabilities => caps)
 		when 'JENKINS'
 			@logger.info 'Creating Jenkins Distributed driver'
 			@driver = Selenium::WebDriver.for BROWSER
