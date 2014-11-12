@@ -44,8 +44,8 @@ RSpec.configure do |config|
 			caps['version'] = '8'
 			caps['browserName'] = 'firefox'
 			#only 31 is intalled
-			
-			hub = "http://10.0.2.162:5555/wd/hub"
+
+			hub = "http://10.0.2.162:4444/grid/register"
 			driver = Selenium::WebDriver.for(:remote, :url => hub, :desired_capabilities => caps)
 		when 'JENKINS'
 			@logger.info 'Creating Jenkins Distributed driver'
