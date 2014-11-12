@@ -40,8 +40,7 @@ RSpec.configure do |config|
 		when 'GRID'
 			@logger.info 'Creating Selenium 2 Grid driver'
 			caps = Selenium::WebDriver::Remote::Capabilities.new
-			caps['platform'] = 'WINDOWS'
-			caps['version'] = '8'
+			caps['platform'] = 'WIN8'
 			caps['browserName'] = 'firefox'
 			#only 31 is intalled
 
