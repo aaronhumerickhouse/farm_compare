@@ -147,13 +147,13 @@ Every test is identical each other, other than the tag. A sample can be found as
 
 
 
-###JENKINS
+###Jenkins
 Jenkins behaved as expected.  There was some overhead involved due to copying files from Master to each slave.  This is necessary so each slave is testing with the same version of code.  The more tests that are included, the less the overhead becomes detrimental, as Copying files only has to happen once for each slave node per regression test cycle.  The overhead consisted of 30.79 seconds on average.  If our test suite consists of 100 tests that take a minute each then 31 seconds becomes irrelevant.  Each test took, on average, 3.68 seconds.  This is by far the fastest.  This is due to no network traffic needed to execute the test, and is by far the fastest although there is quite a bit more setup involved.
 
-###SELENIUM GRID 2
+###Selenium Grid 2
 Selenium Grid 2 behaved as expected.  There was negligible overhead and all tests passed.  The Average Suite time was 35.15 seconds, meaning each test took roughly 7 seconds.  This is about 87% slower than Jenkins's test time numbers.  It's overal suite time is still faster due to Jenkins copying files to each node.  If the test set was larger, a distributed build driven by Jenkins would eventually be faster than the Selenium Grid 2.  This is much faster than Sauce Labs and BrowserStack (if we could have reliable executions), due to everything communicating through an intranet as opposed to communicating via internet (or, put more simply, network latency).
 
-###SAUCE LABS
+###Sauce Labs
 Sauce Labs behaved as expected.  There was negligible overhead and all tests passed.  The Average Suite time was 2 minutes 42 seconds, meaning each test took roughly 32 seconds.  This is almost 8 times slower than Jenkins's test time numbers.  Personally, I don't know what takes Sauce Labs 4-5 times longer to execute a test.  I know some of the time is based on their debugging tools such as: screenshots, test analyzer, and video playback.  More time is required to extra network latency.  However I don't believe that should account for 4-5 times more time.
 
 
