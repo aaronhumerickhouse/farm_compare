@@ -132,9 +132,9 @@ Every test is identical each other, other than the tag. A sample can be found as
 | Sauce Labs   | 00:32.32              | 02:41.60                    | 00:00.97                        | 02:42.57 |
 | BrowserStack | 02:31.44              | 12:37.20                    | 00:23.80                        | 13:01.00 |
 
-![Average Test Time](file:///Users/aaronhumerickhouse/farm_compare/results/images/Average%20Test%20Time.png)
+![Average Test Time](http://i.imgur.com/dqZbB8w.png)
 
-![Average Suite Time](file:///Users/aaronhumerickhouse/farm_compare/results/images/Average%20Suite%20Time.png)
+![Average Suite Time](http://i.imgur.com/9pzpX7G.png)
 
 |              | Average Time per Test | % Difference |
 |--------------|-----------------------|--------------|
@@ -143,7 +143,7 @@ Every test is identical each other, other than the tag. A sample can be found as
 | Sauce Labs   | 00:32.32              | -778.45%     |
 | Browserstack | 02:31.44              | -4016.09%    |
 
-![Percentage Difference](file:///Users/aaronhumerickhouse/farm_compare/results/images/Percentage%20Difference.png)
+![Percentage Difference](http://i.imgur.com/uPWUoVm.png)
 
 
 
