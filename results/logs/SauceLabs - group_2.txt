@@ -1,0 +1,341 @@
+﻿PS C:\Users\Administrator\farm_compare> rspec --tag group_2
+Run options: include {:group_2=>true}
+
+
+[INFO - 2014-11-12 16:16:47 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:16:55 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:16:56 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:16:57 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:16:57 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:17:01 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:17:02 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:17:07 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:17:09 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:17:14 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:17:16 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:17:16 +0000] - Quitting driver
+[INFO - 2014-11-12 16:17:16 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:17:28 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:17:30 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:17:31 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:17:32 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:17:34 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:17:35 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:17:41 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:17:45 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:17:52 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:17:54 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:17:54 +0000] - Quitting driver
+[INFO - 2014-11-12 16:17:54 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:18:03 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:18:06 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:18:06 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:18:07 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:18:09 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:18:10 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:18:17 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:18:19 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:18:25 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:18:26 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:18:28 +0000] - Quitting driver
+[INFO - 2014-11-12 16:18:29 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:18:36 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:18:38 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:18:41 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:18:42 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:18:43 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:18:45 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:18:50 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:18:52 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:19:01 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:19:02 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:19:02 +0000] - Quitting driver
+[INFO - 2014-11-12 16:19:02 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:19:16 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:19:18 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:19:19 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:19:20 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:19:22 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:19:23 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:19:27 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:19:30 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:19:35 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:19:36 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:19:36 +0000] - Quitting driver
+
+
+Finished in 2 minutes 49.7 seconds (files took 0.508 seconds to load)
+5 examples, 0 failures
+PS C:\Users\Administrator\farm_compare>
+PS C:\Users\Administrator\farm_compare> rspec --tag group_2
+Run options: include {:group_2=>true}
+
+
+[INFO - 2014-11-12 16:19:43 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:19:55 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:19:57 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:19:58 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:19:58 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:20:00 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:20:02 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:20:07 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:20:09 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:20:14 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:20:17 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:20:18 +0000] - Quitting driver
+[INFO - 2014-11-12 16:20:18 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:20:26 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:20:28 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:20:29 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:20:30 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:20:32 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:20:34 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:20:38 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:20:40 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:20:45 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:20:46 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:20:46 +0000] - Quitting driver
+[INFO - 2014-11-12 16:20:46 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:20:58 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:21:00 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:21:01 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:21:02 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:21:07 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:21:09 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:21:13 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:21:17 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:21:23 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:21:25 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:21:26 +0000] - Quitting driver
+[INFO - 2014-11-12 16:21:26 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:21:43 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:21:44 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:21:46 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:21:47 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:21:49 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:21:51 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:21:55 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:21:57 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:22:02 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:22:03 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:22:04 +0000] - Quitting driver
+[INFO - 2014-11-12 16:22:04 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:22:14 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:22:16 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:22:17 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:22:17 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:22:19 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:22:22 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:22:28 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:22:30 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:22:35 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:22:36 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:22:36 +0000] - Quitting driver
+
+
+Finished in 2 minutes 53.2 seconds (files took 0.516 seconds to load)
+5 examples, 0 failures
+PS C:\Users\Administrator\farm_compare> rspec --tag group_2
+Run options: include {:group_2=>true}
+
+
+[INFO - 2014-11-12 16:22:49 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:22:58 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:23:00 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:23:00 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:23:01 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:23:03 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:23:05 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:23:09 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:23:11 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:23:16 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:23:17 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:23:17 +0000] - Quitting driver
+[INFO - 2014-11-12 16:23:17 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:23:25 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:23:26 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:23:27 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:23:27 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:23:29 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:23:31 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:23:35 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:23:37 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:23:42 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:23:43 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:23:43 +0000] - Quitting driver
+[INFO - 2014-11-12 16:23:44 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:23:58 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:24:00 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:24:00 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:24:01 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:24:03 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:24:05 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:24:08 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:24:11 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:24:16 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:24:18 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:24:19 +0000] - Quitting driver
+[INFO - 2014-11-12 16:24:19 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:24:29 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:24:30 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:24:33 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:24:34 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:24:36 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:24:37 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:24:41 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:24:43 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:24:48 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:24:49 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:24:50 +0000] - Quitting driver
+[INFO - 2014-11-12 16:24:50 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:25:00 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:25:02 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:25:03 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:25:04 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:25:07 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:25:09 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:25:12 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:25:17 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:25:25 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:25:26 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:25:26 +0000] - Quitting driver
+
+
+Finished in 2 minutes 37.7 seconds (files took 0.536 seconds to load)
+5 examples, 0 failures
+PS C:\Users\Administrator\farm_compare> rspec --tag group_2
+Run options: include {:group_2=>true}
+
+
+[INFO - 2014-11-12 16:26:13 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:26:23 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:26:25 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:26:25 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:26:26 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:26:27 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:26:29 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:26:33 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:26:36 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:26:41 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:26:42 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:26:43 +0000] - Quitting driver
+[INFO - 2014-11-12 16:26:44 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:26:52 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:26:54 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:26:55 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:26:56 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:26:57 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:26:59 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:27:02 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:27:05 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:27:10 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:27:12 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:27:12 +0000] - Quitting driver
+[INFO - 2014-11-12 16:27:12 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:27:20 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:27:22 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:27:23 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:27:24 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:27:26 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:27:27 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:27:31 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:27:34 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:27:43 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:27:44 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:27:44 +0000] - Quitting driver
+[INFO - 2014-11-12 16:27:44 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:27:53 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:27:55 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:27:56 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:27:57 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:27:59 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:28:01 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:28:04 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:28:07 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:28:11 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:28:13 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:28:13 +0000] - Quitting driver
+[INFO - 2014-11-12 16:28:13 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:28:22 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:28:23 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:28:24 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:28:25 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:28:26 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:28:29 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:28:33 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:28:36 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:28:40 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:28:42 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:28:43 +0000] - Quitting driver
+
+
+Finished in 2 minutes 29.8 seconds (files took 0.518 seconds to load)
+5 examples, 0 failures
+PS C:\Users\Administrator\farm_compare> rspec --tag group_2
+Run options: include {:group_2=>true}
+
+
+[INFO - 2014-11-12 16:29:02 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:29:10 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:29:13 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:29:14 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:29:14 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:29:22 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:29:23 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:29:31 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:29:33 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:29:38 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:29:40 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:29:40 +0000] - Quitting driver
+[INFO - 2014-11-12 16:29:40 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:29:51 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:29:53 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:29:53 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:29:54 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:29:57 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:29:59 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:30:02 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:30:04 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:30:09 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:30:10 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:30:10 +0000] - Quitting driver
+[INFO - 2014-11-12 16:30:11 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:30:18 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:30:20 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:30:23 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:30:23 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:30:25 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:30:27 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:30:31 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:30:33 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:30:38 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:30:40 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:30:40 +0000] - Quitting driver
+[INFO - 2014-11-12 16:30:41 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:30:48 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:30:51 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:30:52 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:30:52 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:30:54 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:30:57 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:31:00 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:31:03 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:31:09 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:31:11 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:31:12 +0000] - Quitting driver
+[INFO - 2014-11-12 16:31:12 +0000] - Creating Sauce Labs driver
+[INFO - 2014-11-12 16:31:21 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:31:22 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:31:23 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:31:24 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:31:26 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:31:27 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:31:34 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:31:36 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:31:44 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:31:45 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:31:45 +0000] - Quitting driver
+
+
+Finished in 2 minutes 43.7 seconds (files took 0.536 seconds to load)
+5 examples, 0 failures

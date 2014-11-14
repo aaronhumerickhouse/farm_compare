@@ -1,0 +1,624 @@
+﻿PS C:\Users\Administrator\farm_compare> rspec --tag group_1
+Run options: include {:group_1=>true}
+
+
+[INFO - 2014-11-12 16:35:26 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 16:35:37 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:35:38 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:35:39 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:35:39 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:35:40 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:35:41 +0000] - Selecting DropdownF
+[INFO - 2014-11-12 16:36:42 +0000] - Quitting driver
+[INFO - 2014-11-12 16:36:44 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 16:36:55 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:36:56 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:36:56 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:36:57 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:36:58 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:36:59 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:37:02 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:37:03 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:37:06 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:37:07 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:37:07 +0000] - Quitting driver
+[INFO - 2014-11-12 16:37:09 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 16:37:20 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:37:21 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:37:22 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:37:22 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:37:23 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:37:24 +0000] - Selecting DropdownF
+[INFO - 2014-11-12 16:38:25 +0000] - Quitting driver
+[INFO - 2014-11-12 16:38:27 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 16:38:43 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:38:45 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:38:46 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:38:46 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:38:48 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:38:49 +0000] - Selecting DropdownF
+[INFO - 2014-11-12 16:42:51 +0000] - Quitting driver
+An error occurred in an `after(:context)` hook.
+  Selenium::WebDriver::Error::UnknownError: Session not started or terminated
+  occurred at C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/selenium-webdriver-2.43.0/lib/selenium/webdriver/remote/response.rb
+:52:in `assert_ok'
+
+
+
+
+[INFO - 2014-11-12 16:42:52 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 16:43:04 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:43:06 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:43:06 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:43:06 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:43:07 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:43:08 +0000] - Selecting DropdownF
+[INFO - 2014-11-12 16:47:10 +0000] - Quitting driver
+An error occurred in an `after(:context)` hook.
+  Net::ReadTimeout: Net::ReadTimeout
+  occurred at C:/Ruby21-x64/lib/ruby/2.1.0/net/protocol.rb:158:in `rescue in rbuf_fill'
+
+
+
+
+
+
+Failures:
+
+
+  1) Selenium Sample drives the example
+         Failure/Error: option.click if option.text == 'Firefox'
+         Selenium::WebDriver::Error::UnknownError:
+           Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+           System info: host: '208-52-180-179', ip: '208.52.180.179', os.name: 'windows', os.arch: 'amd64', os.version: '6.2
+', java.version: '1.8.0_05'
+           Driver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException)
+         # ./spec/test1_spec.rb:43:in `block (3 levels) in <top (required)>'
+         # ./spec/test1_spec.rb:42:in `each'
+         # ./spec/test1_spec.rb:42:in `block (2 levels) in <top (required)>'
+
+
+  2) Selenium Sample drives the example
+         Failure/Error: option.click if option.text == 'Firefox'
+         Selenium::WebDriver::Error::UnknownError:
+           Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+           System info: host: '208-52-157-38', ip: '208.52.157.38', os.name: 'windows', os.arch: 'amd64', os.version: '6.2',
+ java.version: '1.8.0_05'
+           Driver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException)
+         # ./spec/test3_spec.rb:45:in `block (3 levels) in <top (required)>'
+         # ./spec/test3_spec.rb:44:in `each'
+         # ./spec/test3_spec.rb:44:in `block (2 levels) in <top (required)>'
+
+
+  3) Selenium Sample drives the example
+         Failure/Error: browser_dropdown_element = @driver.find_element id: 'entry_1000004'
+         Selenium::WebDriver::Error::UnknownError:
+           Unable to communicate to node
+         # ./spec/test4_spec.rb:42:in `block (2 levels) in <top (required)>'
+
+
+  4) Selenium Sample drives the example
+         Failure/Error: option.click if option.text == 'Firefox'
+         Selenium::WebDriver::Error::UnknownError:
+           Unable to communicate to node
+         # ./spec/test5_spec.rb:45:in `block (3 levels) in <top (required)>'
+         # ./spec/test5_spec.rb:44:in `each'
+         # ./spec/test5_spec.rb:44:in `block (2 levels) in <top (required)>'
+
+
+Finished in 13 minutes 44 seconds (files took 0.521 seconds to load)
+5 examples, 4 failures
+
+
+Failed examples:
+
+
+rspec ./spec/test1_spec.rb:5 # Selenium Sample drives the example
+rspec ./spec/test3_spec.rb:7 # Selenium Sample drives the example
+rspec ./spec/test4_spec.rb:7 # Selenium Sample drives the example
+rspec ./spec/test5_spec.rb:7 # Selenium Sample drives the example
+PS C:\Users\Administrator\farm_compare> rspec --tag group_1
+Run options: include {:group_1=>true}
+
+
+[INFO - 2014-11-12 16:52:28 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 16:52:34 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:52:36 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:52:36 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:52:36 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:52:37 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:52:38 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:52:40 +0000] - Selecting happy radio elementF
+[INFO - 2014-11-12 16:56:41 +0000] - Quitting driver
+An error occurred in an `after(:context)` hook.
+  Selenium::WebDriver::Error::UnknownError: Session not started or terminated
+  occurred at C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/selenium-webdriver-2.43.0/lib/selenium/webdriver/remote/response.rb
+:52:in `assert_ok'
+
+
+
+
+[INFO - 2014-11-12 16:56:42 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 16:56:53 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:56:55 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:56:55 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:56:56 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:56:57 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:56:57 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:56:59 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:57:01 +0000] - Selecting item radio elementsF
+[INFO - 2014-11-12 16:57:12 +0000] - Quitting driver
+[INFO - 2014-11-12 16:57:14 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 16:57:19 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:57:21 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:57:21 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:57:22 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:57:22 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:57:23 +0000] - Selecting DropdownF
+[INFO - 2014-11-12 16:58:24 +0000] - Quitting driver
+[INFO - 2014-11-12 16:58:26 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 16:58:36 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:58:38 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:58:38 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:58:38 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:58:39 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:58:40 +0000] - Selecting DropdownF
+[INFO - 2014-11-12 16:59:42 +0000] - Quitting driver
+[INFO - 2014-11-12 16:59:43 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 16:59:53 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:59:55 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:59:55 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:59:55 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:59:56 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:59:57 +0000] - Selecting DropdownF
+[INFO - 2014-11-12 17:00:58 +0000] - Quitting driver
+
+
+Failures:
+
+
+  1) Selenium Sample drives the example
+         Failure/Error: happy_1_radio_element.click
+         Selenium::WebDriver::Error::UnknownError:
+           Unable to communicate to node
+         # ./spec/test1_spec.rb:56:in `block (2 levels) in <top (required)>'
+
+
+  2) Selenium Sample drives the example
+         Failure/Error: expect(item_2_4_radio_element.selected?).to be false
+         Selenium::WebDriver::Error::UnknownError:
+           Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+           System info: host: '208-52-166-99', ip: '208.52.166.99', os.name: 'windows', os.arch: 'amd64', os.version: '6.2',
+ java.version: '1.8.0_05'
+           Driver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException)
+         # ./spec/test2_spec.rb:87:in `block (2 levels) in <top (required)>'
+
+
+  3) Selenium Sample drives the example
+         Failure/Error: option.click if option.text == 'Firefox'
+         Selenium::WebDriver::Error::UnknownError:
+           Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+           System info: host: '208-52-180-199', ip: '208.52.180.199', os.name: 'windows', os.arch: 'amd64', os.version: '6.2
+', java.version: '1.8.0_05'
+           Driver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException)
+         # ./spec/test3_spec.rb:45:in `block (3 levels) in <top (required)>'
+         # ./spec/test3_spec.rb:44:in `each'
+         # ./spec/test3_spec.rb:44:in `block (2 levels) in <top (required)>'
+
+
+  4) Selenium Sample drives the example
+         Failure/Error: selected_option = dropdown_options.map { |option| option.text if option.selected? }.join
+         Selenium::WebDriver::Error::UnknownError:
+           Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+           System info: host: '208-52-166-113', ip: '208.52.166.113', os.name: 'windows', os.arch: 'amd64', os.version: '6.2
+', java.version: '1.8.0_05'
+           Driver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException)
+         # ./spec/test4_spec.rb:48:in `block (3 levels) in <top (required)>'
+         # ./spec/test4_spec.rb:48:in `map'
+         # ./spec/test4_spec.rb:48:in `block (2 levels) in <top (required)>'
+
+
+  5) Selenium Sample drives the example
+         Failure/Error: option.click if option.text == 'Firefox'
+         Selenium::WebDriver::Error::UnknownError:
+           Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+           System info: host: '208-52-166-21', ip: '208.52.166.21', os.name: 'windows', os.arch: 'amd64', os.version: '6.2',
+ java.version: '1.8.0_05'
+           Driver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException)
+         # ./spec/test5_spec.rb:45:in `block (3 levels) in <top (required)>'
+         # ./spec/test5_spec.rb:44:in `each'
+         # ./spec/test5_spec.rb:44:in `block (2 levels) in <top (required)>'
+
+
+Finished in 8 minutes 31 seconds (files took 0.521 seconds to load)
+5 examples, 5 failures
+
+
+Failed examples:
+
+
+rspec ./spec/test1_spec.rb:5 # Selenium Sample drives the example
+rspec ./spec/test2_spec.rb:7 # Selenium Sample drives the example
+rspec ./spec/test3_spec.rb:7 # Selenium Sample drives the example
+rspec ./spec/test4_spec.rb:7 # Selenium Sample drives the example
+rspec ./spec/test5_spec.rb:7 # Selenium Sample drives the example
+PS C:\Users\Administrator\farm_compare> rspec --tag group_1
+Run options: include {:group_1=>true}
+
+
+[INFO - 2014-11-12 17:01:31 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 17:01:42 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 17:01:43 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 17:01:43 +0000] - Filling in story_element
+[INFO - 2014-11-12 17:01:44 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 17:01:45 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 17:01:45 +0000] - Selecting DropdownF
+[INFO - 2014-11-12 17:02:47 +0000] - Quitting driver
+[INFO - 2014-11-12 17:02:49 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 17:03:06 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 17:03:07 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 17:03:07 +0000] - Filling in story_element
+[INFO - 2014-11-12 17:03:08 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 17:03:09 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 17:03:10 +0000] - Selecting DropdownF
+[INFO - 2014-11-12 17:04:11 +0000] - Quitting driver
+[INFO - 2014-11-12 17:04:13 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 17:05:37 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 17:05:40 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 17:05:40 +0000] - Filling in story_element
+[INFO - 2014-11-12 17:05:41 +0000] - Selecting driver radio buttonsF
+[INFO - 2014-11-12 17:06:43 +0000] - Quitting driver
+[INFO - 2014-11-12 17:06:44 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 17:06:55 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 17:06:57 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 17:06:57 +0000] - Filling in story_element
+[INFO - 2014-11-12 17:06:57 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 17:06:58 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 17:06:59 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 17:07:01 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 17:07:02 +0000] - Selecting item radio elementsF
+[INFO - 2014-11-12 17:08:04 +0000] - Quitting driver
+[INFO - 2014-11-12 17:08:06 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 17:08:18 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 17:08:19 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 17:08:20 +0000] - Filling in story_element
+[INFO - 2014-11-12 17:08:20 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 17:08:21 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 17:08:22 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 17:08:23 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 17:08:25 +0000] - Selecting item radio elementsF
+[INFO - 2014-11-12 17:08:34 +0000] - Quitting driver
+
+
+Failures:
+
+
+  1) Selenium Sample drives the example
+         Failure/Error: selected_option = dropdown_options.map { |option| option.text if option.selected? }.join
+         Selenium::WebDriver::Error::UnknownError:
+           Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+           System info: host: '208-52-166-20', ip: '208.52.166.20', os.name: 'windows', os.arch: 'amd64', os.version: '6.2',
+ java.version: '1.8.0_05'
+           Driver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException)
+         # ./spec/test1_spec.rb:46:in `block (3 levels) in <top (required)>'
+         # ./spec/test1_spec.rb:46:in `map'
+         # ./spec/test1_spec.rb:46:in `block (2 levels) in <top (required)>'
+
+
+  2) Selenium Sample drives the example
+         Failure/Error: selected_option = dropdown_options.map { |option| option.text if option.selected? }.join
+         Selenium::WebDriver::Error::UnknownError:
+           Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+           System info: host: '208-52-166-58', ip: '208.52.166.58', os.name: 'windows', os.arch: 'amd64', os.version: '6.2',
+ java.version: '1.8.0_05'
+           Driver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException)
+         # ./spec/test2_spec.rb:48:in `block (3 levels) in <top (required)>'
+         # ./spec/test2_spec.rb:48:in `map'
+         # ./spec/test2_spec.rb:48:in `block (2 levels) in <top (required)>'
+
+
+  3) Selenium Sample drives the example
+         Failure/Error: expect(watir_radio_element.selected?).to be false
+         Selenium::WebDriver::Error::UnknownError:
+           Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+           System info: host: '208-52-180-90', ip: '208.52.180.90', os.name: 'windows', os.arch: 'amd64', os.version: '6.2',
+ java.version: '1.8.0_05'
+           Driver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException)
+         # ./spec/test3_spec.rb:25:in `block (2 levels) in <top (required)>'
+
+
+  4) Selenium Sample drives the example
+         Failure/Error: expect(item_2_2_radio_element.selected?).to be false
+         Selenium::WebDriver::Error::UnknownError:
+           Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+           System info: host: '208-52-180-94', ip: '208.52.180.94', os.name: 'windows', os.arch: 'amd64', os.version: '6.2',
+ java.version: '1.8.0_05'
+           Driver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException)
+         # ./spec/test4_spec.rb:85:in `block (2 levels) in <top (required)>'
+
+
+  5) Selenium Sample drives the example
+         Failure/Error: item_1_1_radio_element = @driver.find_element id: 'group_1000006_1'
+         Selenium::WebDriver::Error::UnknownError:
+           Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+           System info: host: '208-52-148-86', ip: '208.52.148.86', os.name: 'windows', os.arch: 'amd64', os.version: '6.2',
+ java.version: '1.8.0_05'
+           Driver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException)
+         # ./spec/test5_spec.rb:66:in `block (2 levels) in <top (required)>'
+
+
+Finished in 7 minutes 4 seconds (files took 0.55 seconds to load)
+5 examples, 5 failures
+
+
+Failed examples:
+
+
+rspec ./spec/test1_spec.rb:5 # Selenium Sample drives the example
+rspec ./spec/test2_spec.rb:7 # Selenium Sample drives the example
+rspec ./spec/test3_spec.rb:7 # Selenium Sample drives the example
+rspec ./spec/test4_spec.rb:7 # Selenium Sample drives the example
+rspec ./spec/test5_spec.rb:7 # Selenium Sample drives the example
+PS C:\Users\Administrator\farm_compare> rspec --tag group_1
+Run options: include {:group_1=>true}
+
+
+[INFO - 2014-11-12 17:19:14 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 17:20:22 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 17:20:24 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 17:20:24 +0000] - Filling in story_element
+[INFO - 2014-11-12 17:20:24 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 17:20:25 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 17:20:26 +0000] - Selecting DropdownF
+[INFO - 2014-11-12 17:24:27 +0000] - Quitting driver
+An error occurred in an `after(:context)` hook.
+  Selenium::WebDriver::Error::UnknownError: Session not started or terminated
+  occurred at C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/selenium-webdriver-2.43.0/lib/selenium/webdriver/remote/response.rb
+:52:in `assert_ok'
+
+
+
+
+[INFO - 2014-11-12 17:24:28 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 17:24:39 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 17:24:41 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 17:24:41 +0000] - Filling in story_element
+[INFO - 2014-11-12 17:24:41 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 17:24:42 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 17:24:43 +0000] - Selecting DropdownF
+[INFO - 2014-11-12 17:28:45 +0000] - Quitting driver
+An error occurred in an `after(:context)` hook.
+  Selenium::WebDriver::Error::UnknownError: Session not started or terminated
+  occurred at C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/selenium-webdriver-2.43.0/lib/selenium/webdriver/remote/response.rb
+:52:in `assert_ok'
+
+
+
+
+[INFO - 2014-11-12 17:28:45 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 17:28:55 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 17:28:56 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 17:28:56 +0000] - Filling in story_element
+[INFO - 2014-11-12 17:28:57 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 17:28:57 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 17:28:58 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 17:29:00 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 17:29:01 +0000] - Selecting item radio elementsF
+[INFO - 2014-11-12 17:33:03 +0000] - Quitting driver
+An error occurred in an `after(:context)` hook.
+  Selenium::WebDriver::Error::UnknownError: Session not started or terminated
+  occurred at C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/selenium-webdriver-2.43.0/lib/selenium/webdriver/remote/response.rb
+:52:in `assert_ok'
+
+
+
+
+[INFO - 2014-11-12 17:33:04 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 17:33:14 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 17:33:16 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 17:33:16 +0000] - Filling in story_element
+[INFO - 2014-11-12 17:33:16 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 17:33:17 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 17:33:18 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 17:33:20 +0000] - Selecting happy radio elementF
+[INFO - 2014-11-12 17:37:21 +0000] - Quitting driver
+An error occurred in an `after(:context)` hook.
+  Selenium::WebDriver::Error::UnknownError: Session not started or terminated
+  occurred at C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/selenium-webdriver-2.43.0/lib/selenium/webdriver/remote/response.rb
+:52:in `assert_ok'
+
+
+
+
+[INFO - 2014-11-12 17:37:22 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 17:37:32 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 17:37:34 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 17:37:34 +0000] - Filling in story_element
+[INFO - 2014-11-12 17:37:35 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 17:37:36 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 17:37:36 +0000] - Selecting DropdownF
+[INFO - 2014-11-12 17:38:38 +0000] - Quitting driver
+
+
+Failures:
+
+
+  1) Selenium Sample drives the example
+         Failure/Error: option.click if option.text == 'Firefox'
+         Selenium::WebDriver::Error::UnknownError:
+           Unable to communicate to node
+         # ./spec/test1_spec.rb:43:in `block (3 levels) in <top (required)>'
+         # ./spec/test1_spec.rb:42:in `each'
+         # ./spec/test1_spec.rb:42:in `block (2 levels) in <top (required)>'
+
+
+  2) Selenium Sample drives the example
+         Failure/Error: dropdown_options = browser_dropdown_element.find_elements(tag_name: 'option')
+         Selenium::WebDriver::Error::UnknownError:
+           Unable to communicate to node
+         # ./spec/test2_spec.rb:43:in `block (2 levels) in <top (required)>'
+
+
+  3) Selenium Sample drives the example
+         Failure/Error: item_1_2_radio_element = @driver.find_element id: 'group_1000006_2'
+         Selenium::WebDriver::Error::UnknownError:
+           Unable to communicate to node
+         # ./spec/test3_spec.rb:67:in `block (2 levels) in <top (required)>'
+
+
+  4) Selenium Sample drives the example
+         Failure/Error: happy_5_radio_element = @driver.find_element id: 'group_1000005_5'
+         Selenium::WebDriver::Error::UnknownError:
+           Unable to communicate to node
+         # ./spec/test4_spec.rb:57:in `block (2 levels) in <top (required)>'
+
+
+  5) Selenium Sample drives the example
+         Failure/Error: selected_option = dropdown_options.map { |option| option.text if option.selected? }.join
+         Selenium::WebDriver::Error::UnknownError:
+           Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+           System info: host: '208-52-148-41', ip: '208.52.148.41', os.name: 'windows', os.arch: 'amd64', os.version: '6.2',
+ java.version: '1.8.0_05'
+           Driver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException)
+         # ./spec/test5_spec.rb:48:in `block (3 levels) in <top (required)>'
+         # ./spec/test5_spec.rb:48:in `map'
+         # ./spec/test5_spec.rb:48:in `block (2 levels) in <top (required)>'
+
+
+Finished in 19 minutes 25 seconds (files took 0.52601 seconds to load)
+5 examples, 5 failures
+
+
+Failed examples:
+
+
+rspec ./spec/test1_spec.rb:5 # Selenium Sample drives the example
+rspec ./spec/test2_spec.rb:7 # Selenium Sample drives the example
+rspec ./spec/test3_spec.rb:7 # Selenium Sample drives the example
+rspec ./spec/test4_spec.rb:7 # Selenium Sample drives the example
+rspec ./spec/test5_spec.rb:7 # Selenium Sample drives the example
+PS C:\Users\Administrator\farm_compare> rspec --tag group_1
+Run options: include {:group_1=>true}
+
+
+[INFO - 2014-11-12 18:06:08 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 18:07:12 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 18:07:14 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 18:07:14 +0000] - Filling in story_element
+[INFO - 2014-11-12 18:07:14 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 18:07:15 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 18:07:16 +0000] - Selecting DropdownF
+[INFO - 2014-11-12 18:11:18 +0000] - Quitting driver
+An error occurred in an `after(:context)` hook.
+  Selenium::WebDriver::Error::UnknownError: Session not started or terminated
+  occurred at C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/selenium-webdriver-2.43.0/lib/selenium/webdriver/remote/response.rb
+:52:in `assert_ok'
+
+
+
+
+[INFO - 2014-11-12 18:11:18 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 18:11:24 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 18:11:26 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 18:11:26 +0000] - Filling in story_element
+[INFO - 2014-11-12 18:11:26 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 18:11:27 +0000] - Selecting language checkboxF
+[INFO - 2014-11-12 18:12:29 +0000] - Quitting driver
+[INFO - 2014-11-12 18:12:30 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 18:12:36 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 18:12:37 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 18:12:38 +0000] - Filling in story_element
+[INFO - 2014-11-12 18:12:38 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 18:12:39 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 18:12:40 +0000] - Selecting DropdownF
+[INFO - 2014-11-12 18:13:42 +0000] - Quitting driver
+[INFO - 2014-11-12 18:13:44 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 18:13:55 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 18:13:56 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 18:13:57 +0000] - Filling in story_element
+[INFO - 2014-11-12 18:13:57 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 18:13:59 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 18:14:00 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 18:14:02 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 18:14:03 +0000] - Selecting item radio elementsF
+[INFO - 2014-11-12 18:14:12 +0000] - Quitting driver
+[INFO - 2014-11-12 18:14:13 +0000] - Creating Browserstack driver
+[INFO - 2014-11-12 18:14:24 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 18:14:26 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 18:14:26 +0000] - Filling in story_element
+[INFO - 2014-11-12 18:14:26 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 18:14:27 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 18:14:28 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 18:14:30 +0000] - Selecting happy radio elementF
+[INFO - 2014-11-12 18:18:32 +0000] - Quitting driver
+An error occurred in an `after(:context)` hook.
+  Selenium::WebDriver::Error::UnknownError: Session not started or terminated
+  occurred at C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/selenium-webdriver-2.43.0/lib/selenium/webdriver/remote/response.rb
+:52:in `assert_ok'
+
+
+
+
+
+
+Failures:
+
+
+  1) Selenium Sample drives the example
+         Failure/Error: browser_dropdown_element = @driver.find_element id: 'entry_1000004'
+         Selenium::WebDriver::Error::UnknownError:
+           Unable to communicate to node
+         # ./spec/test1_spec.rb:40:in `block (2 levels) in <top (required)>'
+
+
+  2) Selenium Sample drives the example
+         Failure/Error: expect(ruby_checkbox_element.selected?).to be true
+         Selenium::WebDriver::Error::UnknownError:
+           Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+           System info: host: '208-52-148-42', ip: '208.52.148.42', os.name: 'windows', os.arch: 'amd64', os.version: '6.2',
+ java.version: '1.8.0_05'
+           Driver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException)
+         # ./spec/test2_spec.rb:36:in `block (2 levels) in <top (required)>'
+
+
+  3) Selenium Sample drives the example
+         Failure/Error: option.click if option.text == 'Firefox'
+         Selenium::WebDriver::Error::UnknownError:
+           Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+           System info: host: '208-52-166-123', ip: '208.52.166.123', os.name: 'windows', os.arch: 'amd64', os.version: '6.2
+', java.version: '1.8.0_05'
+           Driver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException)
+         # ./spec/test3_spec.rb:45:in `block (3 levels) in <top (required)>'
+         # ./spec/test3_spec.rb:44:in `each'
+         # ./spec/test3_spec.rb:44:in `block (2 levels) in <top (required)>'
+
+
+  4) Selenium Sample drives the example
+         Failure/Error: item_1_1_radio_element = @driver.find_element id: 'group_1000006_1'
+         Selenium::WebDriver::Error::UnknownError:
+           Build info: version: '2.43.1', revision: '5163bce', time: '2014-09-10 16:27:33'
+           System info: host: '208-52-157-10', ip: '208.52.157.10', os.name: 'windows', os.arch: 'amd64', os.version: '6.2',
+ java.version: '1.8.0_05'
+           Driver info: driver.version: unknown (org.openqa.selenium.remote.SessionNotFoundException)
+         # ./spec/test4_spec.rb:66:in `block (2 levels) in <top (required)>'
+
+
+  5) Selenium Sample drives the example
+         Failure/Error: happy_1_radio_element = @driver.find_element id: 'group_1000005_1'
+         Selenium::WebDriver::Error::UnknownError:
+           Unable to communicate to node
+         # ./spec/test5_spec.rb:53:in `block (2 levels) in <top (required)>'
+
+
+Finished in 12 minutes 24 seconds (files took 0.524 seconds to load)
+5 examples, 5 failures
+
+
+Failed examples:
+
+
+rspec ./spec/test1_spec.rb:5 # Selenium Sample drives the example
+rspec ./spec/test2_spec.rb:7 # Selenium Sample drives the example
+rspec ./spec/test3_spec.rb:7 # Selenium Sample drives the example
+rspec ./spec/test4_spec.rb:7 # Selenium Sample drives the example
+rspec ./spec/test5_spec.rb:7 # Selenium Sample drives the example

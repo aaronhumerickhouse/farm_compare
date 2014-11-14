@@ -1,0 +1,376 @@
+﻿Started by upstream project "pull" build number 10
+originally caused by:
+Started by user anonymous
+Building remotely on mario (slaves) in workspace C:\Jenkins\workspace\group_2
+[copy-to-slave] Copying 'jobs/pull/workspace/**/*', excluding nothing, from 'file:/C:/Jenkins/' on the master to 'file:/C:/Jenkins/workspace/group_2/' on 'mario'.
+[group_2] $ cmd /c call C:\Users\ADMINI~1\AppData\Local\Temp\2\hudson188960808845894806.bat
+
+C:\Jenkins\workspace\group_2>cd jobs/pull/workspace 
+
+C:\Jenkins\workspace\group_2\jobs\pull\workspace>rspec --tag group_2 
+Run options: include {:group_2=>true}
+
+[INFO - 2014-11-12 16:01:55 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:01:56 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:01:56 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:01:57 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:01:57 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:01:57 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:01:57 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:01:58 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:01:58 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:01:58 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:01:58 +0000] - Quitting driver
+[INFO - 2014-11-12 16:02:03 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:02:04 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:02:04 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:02:05 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:02:05 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:02:05 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:02:05 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:02:06 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:02:06 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:02:06 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:02:06 +0000] - Quitting driver
+[INFO - 2014-11-12 16:02:11 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:02:12 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:02:12 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:02:13 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:02:13 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:02:13 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:02:13 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:02:14 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:02:14 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:02:14 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:02:14 +0000] - Quitting driver
+[INFO - 2014-11-12 16:02:19 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:02:20 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:02:20 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:02:21 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:02:21 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:02:21 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:02:21 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:02:22 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:02:22 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:02:22 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:02:22 +0000] - Quitting driver
+[INFO - 2014-11-12 16:02:27 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:02:28 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:02:28 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:02:29 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:02:29 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:02:29 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:02:29 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:02:30 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:02:30 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:02:30 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:02:30 +0000] - Quitting driver
+
+Finished in 40.26 seconds (files took 0.364 seconds to load)
+5 examples, 0 failures
+Finished: SUCCESS
+
+
+
+
+
+
+Started by upstream project "pull" build number 11
+originally caused by:
+Started by user anonymous
+Building remotely on mario (slaves) in workspace C:\Jenkins\workspace\group_2
+[copy-to-slave] Copying 'jobs/pull/workspace/**/*', excluding nothing, from 'file:/C:/Jenkins/' on the master to 'file:/C:/Jenkins/workspace/group_2/' on 'mario'.
+[group_2] $ cmd /c call C:\Users\ADMINI~1\AppData\Local\Temp\2\hudson4970515671324625139.bat
+
+C:\Jenkins\workspace\group_2>cd jobs/pull/workspace 
+
+C:\Jenkins\workspace\group_2\jobs\pull\workspace>rspec --tag group_2 
+Run options: include {:group_2=>true}
+
+[INFO - 2014-11-12 16:03:53 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:03:54 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:03:55 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:03:55 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:03:55 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:03:55 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:03:56 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:03:56 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:03:56 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:03:57 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:03:57 +0000] - Quitting driver
+[INFO - 2014-11-12 16:04:02 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:04:03 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:04:03 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:04:03 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:04:03 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:04:03 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:04:04 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:04:04 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:04:05 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:04:05 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:04:05 +0000] - Quitting driver
+[INFO - 2014-11-12 16:04:10 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:04:11 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:04:11 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:04:11 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:04:11 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:04:12 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:04:12 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:04:12 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:04:12 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:04:13 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:04:13 +0000] - Quitting driver
+[INFO - 2014-11-12 16:04:18 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:04:19 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:04:19 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:04:19 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:04:20 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:04:20 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:04:20 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:04:21 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:04:21 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:04:21 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:04:21 +0000] - Quitting driver
+[INFO - 2014-11-12 16:04:26 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:04:27 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:04:27 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:04:28 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:04:28 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:04:28 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:04:29 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:04:29 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:04:29 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:04:30 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:04:30 +0000] - Quitting driver
+
+Finished in 42.09 seconds (files took 0.35938 seconds to load)
+5 examples, 0 failures
+Finished: SUCCESS
+
+
+
+
+Started by upstream project "pull" build number 12
+originally caused by:
+Started by user anonymous
+Started by user anonymous
+Started by user anonymous
+Building remotely on mario (slaves) in workspace C:\Jenkins\workspace\group_2
+[copy-to-slave] Copying 'jobs/pull/workspace/**/*', excluding nothing, from 'file:/C:/Jenkins/' on the master to 'file:/C:/Jenkins/workspace/group_2/' on 'mario'.
+[group_2] $ cmd /c call C:\Users\ADMINI~1\AppData\Local\Temp\2\hudson8263256937976750592.bat
+
+C:\Jenkins\workspace\group_2>cd jobs/pull/workspace 
+
+C:\Jenkins\workspace\group_2\jobs\pull\workspace>rspec --tag group_2 
+Run options: include {:group_2=>true}
+
+[INFO - 2014-11-12 16:04:48 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:04:49 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:04:49 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:04:50 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:04:50 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:04:50 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:04:51 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:04:51 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:04:51 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:04:52 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:04:52 +0000] - Quitting driver
+[INFO - 2014-11-12 16:04:56 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:04:57 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:04:58 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:04:58 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:04:58 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:04:58 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:04:59 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:04:59 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:04:59 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:05:00 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:05:00 +0000] - Quitting driver
+[INFO - 2014-11-12 16:05:05 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:05:06 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:05:06 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:05:06 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:05:06 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:05:06 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:05:07 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:05:07 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:05:07 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:05:08 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:05:08 +0000] - Quitting driver
+[INFO - 2014-11-12 16:05:13 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:05:14 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:05:14 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:05:14 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:05:14 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:05:14 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:05:15 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:05:15 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:05:16 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:05:16 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:05:16 +0000] - Quitting driver
+[INFO - 2014-11-12 16:05:25 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:05:26 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:05:26 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:05:26 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:05:27 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:05:27 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:05:27 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:05:27 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:05:28 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:05:28 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:05:28 +0000] - Quitting driver
+
+Finished in 45.16 seconds (files took 0.35933 seconds to load)
+5 examples, 0 failures
+Finished: SUCCESS
+
+
+
+
+Started by upstream project "pull" build number 13
+originally caused by:
+Started by user anonymous
+Started by user anonymous
+Building remotely on mario (slaves) in workspace C:\Jenkins\workspace\group_2
+[copy-to-slave] Copying 'jobs/pull/workspace/**/*', excluding nothing, from 'file:/C:/Jenkins/' on the master to 'file:/C:/Jenkins/workspace/group_2/' on 'mario'.
+[group_2] $ cmd /c call C:\Users\ADMINI~1\AppData\Local\Temp\2\hudson3818239937791857971.bat
+
+C:\Jenkins\workspace\group_2>cd jobs/pull/workspace 
+
+C:\Jenkins\workspace\group_2\jobs\pull\workspace>rspec --tag group_2 
+Run options: include {:group_2=>true}
+
+[INFO - 2014-11-12 16:05:48 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:05:50 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:05:50 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:05:50 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:05:50 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:05:51 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:05:51 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:05:51 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:05:52 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:05:52 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:05:52 +0000] - Quitting driver
+[INFO - 2014-11-12 16:06:01 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:06:02 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:06:02 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:06:02 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:06:02 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:06:03 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:06:03 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:06:03 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:06:04 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:06:04 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:06:04 +0000] - Quitting driver
+[INFO - 2014-11-12 16:06:09 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:06:10 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:06:10 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:06:10 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:06:10 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:06:11 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:06:11 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:06:11 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:06:12 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:06:12 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:06:12 +0000] - Quitting driver
+[INFO - 2014-11-12 16:06:17 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:06:18 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:06:18 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:06:18 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:06:19 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:06:19 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:06:19 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:06:19 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:06:20 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:06:21 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:06:21 +0000] - Quitting driver
+[INFO - 2014-11-12 16:06:26 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:06:26 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:06:27 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:06:27 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:06:27 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:06:27 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:06:28 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:06:28 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:06:28 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:06:29 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:06:29 +0000] - Quitting driver
+
+Finished in 45.31 seconds (files took 0.35938 seconds to load)
+5 examples, 0 failures
+Finished: SUCCESS
+
+
+
+
+Started by upstream project "pull" build number 14
+originally caused by:
+Started by user anonymous
+Building remotely on mario (slaves) in workspace C:\Jenkins\workspace\group_2
+[copy-to-slave] Copying 'jobs/pull/workspace/**/*', excluding nothing, from 'file:/C:/Jenkins/' on the master to 'file:/C:/Jenkins/workspace/group_2/' on 'mario'.
+[group_2] $ cmd /c call C:\Users\ADMINI~1\AppData\Local\Temp\2\hudson5320507742873191148.bat
+
+C:\Jenkins\workspace\group_2>cd jobs/pull/workspace 
+
+C:\Jenkins\workspace\group_2\jobs\pull\workspace>rspec --tag group_2 
+Run options: include {:group_2=>true}
+
+[INFO - 2014-11-12 16:06:48 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:06:49 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:06:49 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:06:50 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:06:50 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:06:50 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:06:50 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:06:51 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:06:51 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:06:52 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:06:52 +0000] - Quitting driver
+[INFO - 2014-11-12 16:06:56 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:06:57 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:06:58 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:06:58 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:06:58 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:06:58 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:06:59 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:06:59 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:06:59 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:07:00 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:07:00 +0000] - Quitting driver
+[INFO - 2014-11-12 16:07:09 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:07:09 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:07:10 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:07:10 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:07:10 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:07:10 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:07:11 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:07:11 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:07:11 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:07:12 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:07:12 +0000] - Quitting driver
+[INFO - 2014-11-12 16:07:16 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:07:17 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:07:18 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:07:18 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:07:18 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:07:18 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:07:19 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:07:19 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:07:19 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:07:20 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:07:20 +0000] - Quitting driver
+[INFO - 2014-11-12 16:07:25 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 16:07:26 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 16:07:26 +0000] - Filling in story_element
+[INFO - 2014-11-12 16:07:26 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 16:07:26 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 16:07:26 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 16:07:27 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 16:07:27 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 16:07:27 +0000] - Clicking submit button
+[INFO - 2014-11-12 16:07:28 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 16:07:28 +0000] - Quitting driver
+
+Finished in 44.55 seconds (files took 0.35938 seconds to load)
+5 examples, 0 failures
+Finished: SUCCESS

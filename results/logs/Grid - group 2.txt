@@ -1,0 +1,341 @@
+﻿PS C:\Users\Administrator\farm_compare> $env:DRIVER = "GRID"
+PS C:\Users\Administrator\farm_compare> rspec --tag group_2
+Run options: include {:group_2=>true}
+
+
+[INFO - 2014-11-12 15:48:12 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:48:15 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:48:17 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:48:17 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:48:17 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:48:17 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:48:18 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:48:18 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:48:19 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:48:19 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:48:20 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:48:20 +0000] - Quitting driver
+[INFO - 2014-11-12 15:48:20 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:48:23 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:48:24 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:48:24 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:48:24 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:48:25 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:48:25 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:48:26 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:48:26 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:48:27 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:48:27 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:48:27 +0000] - Quitting driver
+[INFO - 2014-11-12 15:48:27 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:48:30 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:48:31 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:48:31 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:48:31 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:48:32 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:48:32 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:48:32 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:48:33 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:48:33 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:48:34 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:48:34 +0000] - Quitting driver
+[INFO - 2014-11-12 15:48:34 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:48:36 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:48:37 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:48:38 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:48:38 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:48:38 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:48:38 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:48:39 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:48:39 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:48:40 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:48:40 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:48:40 +0000] - Quitting driver
+[INFO - 2014-11-12 15:48:41 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:48:43 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:48:44 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:48:44 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:48:45 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:48:45 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:48:45 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:48:46 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:48:46 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:48:47 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:48:47 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:48:47 +0000] - Quitting driver
+
+
+Finished in 35.39 seconds (files took 0.51 seconds to load)
+5 examples, 0 failures
+PS C:\Users\Administrator\farm_compare> rspec --tag group_2
+Run options: include {:group_2=>true}
+
+
+[INFO - 2014-11-12 15:49:25 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:49:27 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:49:29 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:49:29 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:49:29 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:49:29 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:49:30 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:49:30 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:49:31 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:49:31 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:49:32 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:49:32 +0000] - Quitting driver
+[INFO - 2014-11-12 15:49:32 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:49:34 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:49:35 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:49:35 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:49:36 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:49:36 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:49:36 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:49:37 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:49:38 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:49:38 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:49:39 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:49:39 +0000] - Quitting driver
+[INFO - 2014-11-12 15:49:39 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:49:41 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:49:42 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:49:42 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:49:42 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:49:43 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:49:43 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:49:44 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:49:44 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:49:45 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:49:45 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:49:45 +0000] - Quitting driver
+[INFO - 2014-11-12 15:49:45 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:49:47 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:49:48 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:49:48 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:49:49 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:49:49 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:49:49 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:49:50 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:49:50 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:49:51 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:49:51 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:49:51 +0000] - Quitting driver
+[INFO - 2014-11-12 15:49:51 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:49:59 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:50:00 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:50:00 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:50:00 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:50:00 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:50:01 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:50:01 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:50:02 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:50:02 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:50:03 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:50:03 +0000] - Quitting driver
+
+
+Finished in 37.97 seconds (files took 0.523 seconds to load)
+5 examples, 0 failures
+PS C:\Users\Administrator\farm_compare> rspec --tag group_2
+Run options: include {:group_2=>true}
+
+
+[INFO - 2014-11-12 15:50:11 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:50:13 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:50:14 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:50:14 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:50:15 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:50:15 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:50:15 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:50:16 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:50:16 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:50:17 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:50:17 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:50:17 +0000] - Quitting driver
+[INFO - 2014-11-12 15:50:17 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:50:20 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:50:21 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:50:21 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:50:21 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:50:22 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:50:22 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:50:23 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:50:23 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:50:23 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:50:24 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:50:24 +0000] - Quitting driver
+[INFO - 2014-11-12 15:50:24 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:50:26 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:50:27 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:50:28 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:50:28 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:50:28 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:50:28 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:50:29 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:50:29 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:50:30 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:50:30 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:50:30 +0000] - Quitting driver
+[INFO - 2014-11-12 15:50:30 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:50:33 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:50:35 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:50:35 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:50:35 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:50:35 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:50:36 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:50:36 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:50:37 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:50:37 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:50:37 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:50:38 +0000] - Quitting driver
+[INFO - 2014-11-12 15:50:38 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:50:40 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:50:41 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:50:41 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:50:42 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:50:42 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:50:42 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:50:43 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:50:43 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:50:44 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:50:45 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:50:45 +0000] - Quitting driver
+
+
+Finished in 34.38 seconds (files took 0.538 seconds to load)
+5 examples, 0 failures
+PS C:\Users\Administrator\farm_compare> rspec --tag group_2
+Run options: include {:group_2=>true}
+
+
+[INFO - 2014-11-12 15:53:54 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:53:57 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:53:58 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:53:58 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:53:58 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:53:58 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:53:59 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:53:59 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:53:59 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:54:00 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:54:00 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:54:00 +0000] - Quitting driver
+[INFO - 2014-11-12 15:54:01 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:54:03 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:54:04 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:54:05 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:54:05 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:54:05 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:54:06 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:54:06 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:54:06 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:54:07 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:54:07 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:54:07 +0000] - Quitting driver
+[INFO - 2014-11-12 15:54:08 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:54:10 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:54:11 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:54:11 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:54:11 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:54:12 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:54:12 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:54:12 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:54:13 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:54:13 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:54:14 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:54:14 +0000] - Quitting driver
+[INFO - 2014-11-12 15:54:14 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:54:16 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:54:17 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:54:18 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:54:18 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:54:18 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:54:18 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:54:19 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:54:19 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:54:20 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:54:20 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:54:20 +0000] - Quitting driver
+[INFO - 2014-11-12 15:54:20 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:54:23 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:54:24 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:54:24 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:54:24 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:54:24 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:54:24 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:54:25 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:54:25 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:54:26 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:54:26 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:54:26 +0000] - Quitting driver
+
+
+Finished in 32.32 seconds (files took 0.529 seconds to load)
+5 examples, 0 failures
+PS C:\Users\Administrator\farm_compare> rspec --tag group_2
+Run options: include {:group_2=>true}
+
+
+[INFO - 2014-11-12 15:55:45 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:55:48 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:55:50 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:55:50 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:55:51 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:55:51 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:55:51 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:55:52 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:55:52 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:55:53 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:55:53 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:55:53 +0000] - Quitting driver
+[INFO - 2014-11-12 15:55:53 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:55:56 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:55:57 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:55:57 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:55:57 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:55:58 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:55:58 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:55:58 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:55:59 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:55:59 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:55:59 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:55:59 +0000] - Quitting driver
+[INFO - 2014-11-12 15:56:00 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:56:02 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:56:03 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:56:03 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:56:03 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:56:04 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:56:04 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:56:04 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:56:05 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:56:05 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:56:06 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:56:06 +0000] - Quitting driver
+[INFO - 2014-11-12 15:56:06 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:56:09 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:56:10 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:56:10 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:56:10 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:56:10 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:56:10 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:56:11 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:56:11 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:56:12 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:56:12 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:56:12 +0000] - Quitting driver
+[INFO - 2014-11-12 15:56:12 +0000] - Creating Selenium 2 Grid driver
+[INFO - 2014-11-12 15:56:15 +0000] - Navigating to watir-example
+[INFO - 2014-11-12 15:56:16 +0000] - Entering Aaron Humerickhouse into name_element
+[INFO - 2014-11-12 15:56:16 +0000] - Filling in story_element
+[INFO - 2014-11-12 15:56:16 +0000] - Selecting driver radio buttons
+[INFO - 2014-11-12 15:56:17 +0000] - Selecting language checkbox
+[INFO - 2014-11-12 15:56:18 +0000] - Selecting Dropdown
+[INFO - 2014-11-12 15:56:19 +0000] - Selecting happy radio element
+[INFO - 2014-11-12 15:56:19 +0000] - Selecting item radio elements
+[INFO - 2014-11-12 15:56:20 +0000] - Clicking submit button
+[INFO - 2014-11-12 15:56:20 +0000] - Verifying navigation to next page.
+[INFO - 2014-11-12 15:56:20 +0000] - Quitting driver
+
+
+Finished in 34.67 seconds (files took 0.537 seconds to load)
+5 examples, 0 failures

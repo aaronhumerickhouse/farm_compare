@@ -27,8 +27,6 @@ RSpec.configure do |config|
 			@driver = Selenium::WebDriver.for(:remote, :url => URI(SAUCELABS_URL), :desired_capabilities => caps)
 
 		when 'BROWSERSTACK'
-			#@logger.info 'Requiring fast_selenium.rb'
-			#require_relative './../resources/fast_selenium.rb'
 			@logger.info 'Creating Browserstack driver'
 			caps = Selenium::WebDriver::Remote::Capabilities.new
 			caps['os'] = 'Windows'
