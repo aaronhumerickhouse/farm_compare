@@ -1,7 +1,20 @@
-#Time Analysis of Running Selenium Tests in Parallel
+#Selenium: to Saas or not to Saas
 
 ##Introduction
 Having recently joined Sport Ngin as an Automation Engineer, I needed to choose a strategy to execute an Automation Regression Suite.  With the vastness that is our web applicationw, we need to be able to perform Automated Regression Tests in a way that avoids disrupting development workflow without sacrificing the value it provides.  Thankfully there are tools that aim to balance usefulness and unobtrusiveness.  I'm going to talk specifically about tools based around Selenium WebDriver.  Selenium Grid 2 easily allows for testing multiple browsers on multiple computers.  There's BrowserStack and Sauce Labs which are SaaS services that run on top of Selenium Grid 2 utilizing Amazon's AWS EC2 instances.  There are also other tools that help create distributive systems, such as Jenkins.  I've created a handful of Automation Frameworks in the past and have run them on a local server farm as well as in Sauce Labs and in BrowserStack. Comparing these four strategies, I need to find a balance that is right for Sport Ngin. 
+
+###Tool Selection
+I wanted to look at running tests on our own infrastructure comparing it to paying a company to run them for us. These four tools are all created or designed in order to test on multiple browsers and operating systems in different ways.  
+<dl>
+<dt>Distributed Build using Jenkins</dt>
+<dd>This is running Selenium tests on multiple machines with Jenkins handling the distributions through its' jobs.  This is the closest performance to running a test locally and can be very effective if set up correctly.</dd>
+<dt>Selenium Grid 2</dt>
+<dd>Selenium Grid 2 was chosen because it was created to perform parallel testing on multiple browsers and operating systems.  This is the tool that tools like Sauce Labs are built on.</dd>
+<dt>Sauce Labs</dt>
+<dd>This Saas based service is used by companies such as Salesforce and Twitter.  This is one of the leading methods to perform remote Selenium testing in parallel.</dd>
+<dt>BrowserStack</dt>
+<dd>This Saas based service is used by companies such as Microsoft and jQuery.  BrowserStack seems to be the main competitor to Sauce Labs.</dd>
+</dl>
 
 ##The Framework
 The goal was to keep everything as simple as possible.  We are a Ruby house so I wrote my framework and tests in Ruby.  It's intentionally a very simple framework including Selenium and RSpec (a testing tool for the Ruby programming language with BDD as a core ideal).  There was no need for a Rakefile, just a spec_helper and the specs (tests).  The spec_helper starts the drivers, depending on the strategy, and creates a logger before each test, it also quits the driver after each test.  This is done utilizing RSpec's `before :all` and `after :all` configurations.  In JUnit, the equivalent would be `@Before` and `@After`.  I wrote one test and copied it for 10 identical tests in the regression suite.  The 10 tests were split into 2 groups of 5 using RSpec tags.  This was done in order to see how to truly take advantage of running tests in parallel.
@@ -162,6 +175,11 @@ Unfortunately at the time of performing this analysis, BrowserStack failed to wo
 	
 
 ##Conclusion
-Unfortunately, I wasn't able to compare Sauce Labs and BrowserStack side by side.  Jenkins test execution is faster than Selenium Grid 2 however the entire suite performance depends on how many tests are executed compared to any setup.  Jenkins can be more difficult to maintain than Selenium Grid 2. Selenium Grid 2 will maintain it's performance standard because there is no overhead required to run a test. Jenkins would be a good option if a Jenkins instance was already set up or if you aren't afraid of maintenance.  Jenkins is very customizable, it has almost any plugin you could ever need.  The benefit of a SaaS service is simple.  Servers do not have to be maintained in order to execute tests; it's very simple to use hundreds of different configurations.  The detriment is that testing requires a lot more time, which has to be paid for.  The decision between using a SaaS service for running Selenium tests in parallel and creating your own server farm really depends on the organization.  If throughput is your first priority, then Jenkins or Selenium Grid 2 are a great options, but if adding more infrastructure is a nightmare, it's a lot easier to hand off to BrowserStack or Sauce Labs.
+When it comes to running tests on local infrastructure, they are fast. A distributed build test execution is faster than Selenium Grid 2 however the entire suite performance depends on how many tests are executed compared to any setup due to necessary overhead (copying framework to the slaves in our case).  A distributed build can be more difficult to maintain than Selenium Grid 2. Selenium Grid 2 will maintain it's performance standard because there is no overhead required to run a test.  A distributed build would be a good option if one was already set up or if you aren't afraid of maintenance. 
+
+The benefit of a SaaS service is simple.  Servers do not have to be maintained in order to execute tests; it's very easy to use hundreds of different configurations.  Unfortunately, I wasn't able to compare Sauce Labs and BrowserStack side by side.  The detriment is that testing requires a lot more time which has to be paid for, whether it be monetary, slow throughput, or a bigger disruption in the development cycle.  
+
+The decision between using a SaaS service for running Selenium tests in parallel and creating your own server farm really depends on the organization.  If throughput is your first priority, then Jenkins or Selenium Grid 2 are a great options, but if adding more infrastructure is a nightmare, it's a lot easier to hand off to BrowserStack or Sauce Labs.
+
 
 To see the results, logs, and source code, view it on [Git Hub](http://github.com/aaronhumerickhouse/farm_compare)
