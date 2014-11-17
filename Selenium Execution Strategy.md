@@ -1,18 +1,19 @@
 #Selenium: to Saas or not to Saas
+If you aren't interested in the exact details, a ['tldr'](https://github.com/aaronhumerickhouse/farm_compare/blob/master/tl%3Bdr%20Selenium%20Execution%20Strategy.md) is posted.
 
 ##Introduction
-Having recently joined Sport Ngin as an Automation Engineer, I needed to choose a strategy to execute an Automation Regression Suite.  With the vastness that are our web applications, we need to be able to perform Automated Regression Tests in a way that avoids disrupting development workflow without sacrificing the value it provides.  Thankfully there are tools that aim to balance usefulness and unobtrusiveness.  I'm going to talk specifically about tools based around Selenium WebDriver.  Selenium Grid 2 easily allows for testing multiple browsers on multiple computers.  There's BrowserStack and Sauce Labs which are SaaS services that run on top of Selenium Grid 2 utilizing Amazon's AWS EC2 instances.  There are also other tools that help create distributive systems, such as Jenkins.  I've created a handful of Automation Frameworks in the past and have run them on a local server farm as well as in Sauce Labs and in BrowserStack. Comparing these four strategies, I need to find a balance that is right for Sport Ngin. 
+Having recently joined Sport Ngin as an Automation Engineer, I was tasked with choosing a strategy to execute an Automation Regression Suite.  We need to be able to perform a largue suite of Automated UI Regression Tests in a way that avoids disrupting development workflow without sacrificing the value it provides.  Thankfully there are tools that aim to balance usefulness and unobtrusiveness. In my experience, the slower these tests take to run, the less likely it is for developers to run them as necessary.  I've become more frustrated by debugging issues simply because the time it takes to get to the critical part.  It also becomes harder to debug when a test doesn't behave the same way locally as it does when executing.  We all know the 'it works on my machine' syndrome.  When all of this is happening, it becomes easy for an Automation effort to fail. I've created a handful of Automation Frameworks in the past and have run them on a local server farm as well as in Sauce Labs and in BrowserStack. I need to find a balance that is right for Sport Ngin. 
 
 ###Tool Selection
-I wanted to look at running tests on our own infrastructure comparing it to paying a company to run them for us. These four tools are all created or designed in order to test on multiple browsers and operating systems in different ways.  
+I wanted to look at running tests on our own infrastructure and compare it to paying for a SaaS service. These four tools are all created or designed in order to test on multiple browsers and operating systems in different ways.  
 <dl>
-<dt>Distributed Build using Jenkins</dt>
+<dt>Distributed Build using <a href="http://www.jenkincs-ci.org" target="_blank">Jenkins</a></dt>
 <dd>This is running Selenium tests on multiple machines with Jenkins handling the distributions through its' jobs.  This is the closest performance to running a test locally and can be very effective if set up correctly.</dd>
-<dt>Selenium Grid 2</dt>
-<dd>Selenium Grid 2 was chosen because it was created to perform parallel testing on multiple browsers and operating systems.  This is the tool that tools like Sauce Labs are built on.</dd>
-<dt>Sauce Labs</dt>
+<dt><a href="https://code.google.com/p/selenium/wiki/Grid2" target="_blank">Selenium Grid 2</a></dt>
+<dd>Selenium Grid 2 was chosen because it was created to perform parallel testing on multiple browsers and operating systems.  This is the tool that services like Sauce Labs are built on.</dd>
+<dt><a href="http://www.saucelabs.com" target="_blank">Sauce Labs</a></dt>
 <dd>This Saas based service is used by companies such as Salesforce and Twitter.  This is one of the leading methods to perform remote Selenium testing in parallel.</dd>
-<dt>BrowserStack</dt>
+<dt><a href="http://www.browserstack.com" target="_blank">BrowserStack</a></dt>
 <dd>This Saas based service is used by companies such as Microsoft and jQuery.  BrowserStack seems to be the main competitor to Sauce Labs.</dd>
 </dl>
 
@@ -20,7 +21,7 @@ I wanted to look at running tests on our own infrastructure comparing it to payi
 The goal was to keep everything as simple as possible.  We are a Ruby house so I wrote my framework and tests in Ruby.  It's intentionally a very simple framework including Selenium and RSpec (a testing tool for the Ruby programming language with BDD as a core ideal).  There was no need for a Rakefile, just a spec_helper and the specs (tests).  The spec_helper starts the drivers, depending on the strategy, and creates a logger before each test, it also quits the driver after each test.  This is done utilizing RSpec's `before :all` and `after :all` configurations.  In JUnit, the equivalent would be `@Before` and `@After`.  I wrote one test and copied it for 10 identical tests in the regression suite.  The 10 tests were split into 2 groups of 5 using RSpec tags.  This was done in order to see how to truly take advantage of running tests in parallel.
 
 ##Setup
-We paid for three EC2 t2.small instances in Amazon AWS in the US East (N. Virginia) region.  Each one was a Windows Server 2012 Base instance. This comprised one master and two slave machines to run the test or drive the browser depending on the task at hand.  The two slaves were only utilized for the Selenium Grid 2 and Jenkins setup.  All three instances were put into the same security group in AWS so they were able to communicate to each other.  Here is what I had to do in order for the framework to work for each strategy.
+We launched three [EC2](http://aws.amazon.com/ec2/) t2.small instances in [Amazon AWS](http://aws.amazon.com/) in the US East (N. Virginia) region.  Each one was a Windows Server 2012 Base instance. This comprised one master and two slave machines to run the test or drive the browser depending on the task at hand.  The two slaves were only utilized for the Selenium Grid 2 and Jenkins setup.  All three instances were put into the same security group in AWS so they were able to communicate to each other.  Here is what I had to do in order for the framework to work for each strategy.
 
 ###Machine Setup
 ####Security Group
@@ -171,7 +172,7 @@ Sauce Labs behaved as expected.  There was negligible overhead and all tests pas
 
 
 ###BrowserStack
-Unfortunately at the time of performing this analysis, BrowserStack failed to work as I had hoped.  Only 5 of our 50 test executions passed, whereas they past 100% on every other strategy I tested. There were two common errors:  `CLIENT_STOPPED_SESSION`, which immediately killed the BrowserStack session due to an error that WebDriver reported, and `SO_TIMEOUT` which took 4 minutes to kill the BrowserStack session.  This is why the results show time per test is much longer in BrowserStack.  The extra overhead in BrowserStack is due to the WebDriver timing trying to find an element that does exist.  I've emailed BrowserStack support about why the tests are failing without explanation on November 4, 2014.  As of November 14, 2014 I have only received an email (after inquiring about it) saying “I apologize this is taking much longer than expected. We are still actively working on a fix. Rest assured we will keep you posted as things progress.”  I do plan on executing this again if BrowserStack ever gets to me.  It's worth noting that the 5 tests that did pass average to 22.60 second test execution time.  Additionally, I am able to execute other tests on BrowserStack with better results.
+Unfortunately at the time of performing this analysis, BrowserStack failed to work as I had hoped.  Only 5 of our 50 test executions passed, whereas they passed 100% on every other strategy I tested. There were two common errors:  `CLIENT_STOPPED_SESSION`, which immediately killed the BrowserStack session due to an error that WebDriver reported, and `SO_TIMEOUT` which took 4 minutes to kill the BrowserStack session.  This is why the results show time per test is much longer in BrowserStack.  The extra overhead in BrowserStack is due to the WebDriver timing trying to find an element that does exist.  I've emailed BrowserStack support about why the tests are failing without explanation on November 4, 2014.  As of November 14, 2014 I have only received an email (after inquiring about it) saying “I apologize this is taking much longer than expected. We are still actively working on a fix. Rest assured we will keep you posted as things progress.”  I do plan on executing this again if BrowserStack ever gets back to me.  It's worth noting that the 5 tests that did pass average to 22.60 second test execution time.  Additionally, I am able to execute other tests on BrowserStack with better results.
 	
 
 ##Conclusion
@@ -179,7 +180,7 @@ When it comes to running tests on local infrastructure, they are fast. A distrib
 
 The benefit of a SaaS service is simple.  Servers do not have to be maintained in order to execute tests; it's very easy to use hundreds of different configurations.  Unfortunately, I wasn't able to compare Sauce Labs and BrowserStack side by side.  The detriment is that testing requires a lot more time which has to be paid for, whether it be monetary, slow throughput, or a bigger disruption in the development cycle.  
 
-The decision between using a SaaS service for running Selenium tests in parallel and creating your own server farm really depends on the organization.  If throughput is your first priority, then Jenkins or Selenium Grid 2 are a great options, but if adding more infrastructure is a nightmare, it's a lot easier to hand off to BrowserStack or Sauce Labs.
+The decision between using a SaaS service for running Selenium tests in parallel and creating your own server farm really depends on the organization.  If throughput is your first priority, then Jenkins or Selenium Grid 2 are great options, but if adding more infrastructure is a nightmare, it's a lot easier to hand off to BrowserStack or Sauce Labs.
 
 
 To see the results, logs, and source code, view it on [Git Hub](http://github.com/aaronhumerickhouse/farm_compare)
