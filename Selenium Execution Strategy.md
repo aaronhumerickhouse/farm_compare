@@ -36,7 +36,7 @@ We launched three [EC2](http://aws.amazon.com/ec2/) t2.small instances in [Amazo
 | Install Dependent Gems                         |       x      |      x     |        x        |    x    |
 | Install Java JRE                               |              |            |        x        |    x    |
 | Open firewall for 4444, 5555, 5556             |              |            |                 |    x    |
-| Download selenium-server-standalone-2.43.1.jar |              |            |                 |    x    |
+| Download selenium-server-standalone-2.43.1.jar |              |            |        x        |         |
 
 			
 ####Slaves
@@ -47,7 +47,7 @@ We launched three [EC2](http://aws.amazon.com/ec2/) t2.small instances in [Amazo
 | Install Dependent Gems                         |              |            |        x        |    x    |
 | Install Java JRE                               |              |            |        x        |    x    |
 | Open firewall for 4444, 5555, 5556             |              |            |                 |    x    |
-| Download selenium-server-standalone-2.43.1.jar |              |            |                 |    x    |
+| Download selenium-server-standalone-2.43.1.jar |              |            |        x        |         |
 | Install Firefox 31.0                           |              |            |        x        |    x    |
 
 ###Strategy Configuration
